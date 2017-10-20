@@ -17,5 +17,6 @@ Pod::Spec.new do |s|
 
     s.framework =               "UIKit"
     s.cocoapods_version =       '>= 1.0'
-    s.ios.dependency            'WINGiT', '~> 3.2.0'
+    s.ios.vendored_framework =  'WINGiT_UI_3.2.0/WINGiT_UI.framework'
+    s.ios.dependency            'WINGiT_API', '~> 3.2.0'
 end
